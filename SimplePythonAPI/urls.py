@@ -18,9 +18,6 @@ from django.urls import path, include
 from simpleDataViewer import views
 # send request to simpleDataViewer/hello
 urlpatterns = [
-    #route paths that start with 'simpleDataViewer'
-    #path('', include('simpleDataViewer.urls')),
+    path('', include('simpleDataViewer.urls')),
     path('admin/', admin.site.urls),
-    path('', views.say_hello, name='say_hello'),
-
 ]
