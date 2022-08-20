@@ -2,6 +2,10 @@ import pandas
 
 df = pandas.read_csv('emotional_arguments.csv')
 
+df = df.sample(frac=1).reset_index(drop=True)
+
+df = df.iloc[:1000]
+
 df.drop('confidence', inplace=True, axis=1)
 df.drop('dataset', inplace=True, axis=1)
 
