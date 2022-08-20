@@ -2,12 +2,11 @@ import pandas
 from django.db import models
 
 # Create your models here.
-
-class EmoArguments(models.Model):
+class EmoArgument(models.Model):
     argument = models.TextField()
     arg_strength = models.FloatField()
+    stance = models.IntegerField()
     topic = models.TextField()
-   # stance = models.PositiveIntegerField()
     label = models.PositiveIntegerField()
 
 
