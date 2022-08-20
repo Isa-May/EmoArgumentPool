@@ -3,5 +3,5 @@ from simpleDataViewer import views
 
 # URLConfiguration
 urlpatterns = [
-    path('', views.say_hello, name="say_hello"),
+    path('', views.render_arguments, name="render_arguments"),
 ]
