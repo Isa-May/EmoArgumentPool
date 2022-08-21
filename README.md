@@ -1,6 +1,8 @@
 This is the backend of a basic application providing emotional and non-emotional arguments 
 as classified by the best model of my NLP and machine learning project (see...).
-The user may e.g. be a speech writer. 
+The user may e.g. be a speech writer. Please note that the arguments by no means reflect my personal views. They are simply the result of a data collection for scientific purposes, 
+from the following sources:
+
 
 It is possible to choose arguments on the topics of ''.. 
 They can be pro and contra, emotional and non-emotional.
