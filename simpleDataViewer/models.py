@@ -10,3 +10,5 @@ class EmoArgument(models.Model):
     label = models.PositiveIntegerField()
 
 
+#class FavoriteArguments(models.Model):
+ #   favargument = models.TextField()

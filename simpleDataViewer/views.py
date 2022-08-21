@@ -11,8 +11,24 @@ def render_arguments(request):
     return HttpResponse(template.render(context, request))
 
 
-def render_arguments_by_topic(request):
+def render_arguments_by_topic_1(request):
     my_args = EmoArgument.objects.all().filter(topic='tv-is-better-than-books')
+    template = loader.get_template('render_arguments.html')
+    context = {
+        'my_args': my_args,
+    }
+    return HttpResponse(template.render(context, request))
+
+def render_arguments_by_topic_2(request):
+    my_args = EmoArgument.objects.all().filter(topic='firefox-vs-internet-explorer')
+    template = loader.get_template('render_arguments.html')
+    context = {
+        'my_args': my_args,
+    }
+    return HttpResponse(template.render(context, request))
+
+def render_arguments_by_topic_3(request):
+    my_args = EmoArgument.objects.all().filter(topic='ban-plastic-water-bottles')
     template = loader.get_template('render_arguments.html')
     context = {
         'my_args': my_args,
