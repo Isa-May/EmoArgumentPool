@@ -2,6 +2,8 @@ from django.http import HttpResponse
 from .models import EmoArgument
 from django.template import loader
 
+#add all our API endpoints here 
+
 def render_arguments(request):
     my_args=EmoArgument.objects.all().values()
     template = loader.get_template('render_arguments.html')
