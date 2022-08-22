@@ -7,3 +7,4 @@ fullstack_arg_pool
 .dockerignore
 Dockerfile
 docker-compose.yml
+.vscode
