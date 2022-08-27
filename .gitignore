@@ -1,3 +1,10 @@
 .DS_Store
 .idea
 simpleAPI
+__pycache__
+fullstack_arg_pool
+.docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+.vscode

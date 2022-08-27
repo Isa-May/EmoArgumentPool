@@ -37,8 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'simpleDataViewer'
-]
+    'simpleDataViewer']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
