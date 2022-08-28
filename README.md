@@ -1,5 +1,6 @@
 This is a basic django REST Api allowing to display arguments classified as 'emotional' and 'non-emotional'
-by the machine learning models created in my project 'EmotionalArgumentationProject'.
+by the machine learning models created in my project 'EmotionalArgumentationProject'. An 'emotional' argument, as classified in this project, is an argument containing pathos, i.e. emotional appeal. A 'non-emotional' argument is, by contrast, not able to trigger emotions. 
+
 
 Please note that the arguments by no means reflect my personal views nor are they directed towards anyone, they are simply the outcome
 of a research project. The sources of the data are mainly from online arguments portals and forums where people 
