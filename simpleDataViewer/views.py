@@ -2,16 +2,7 @@ from django.http import HttpResponse
 from .models import EmoArgument
 from django.template import loader
 
-#add all our API endpoints here 
-
-def render_arguments(request):
-    my_args=EmoArgument.objects.all().values()
-    template = loader.get_template('render_arguments_emo.html')
-    context = {
-        'my_args': my_args,
-    }
-    return HttpResponse(template.render(context, request))
-
+# add all our API endpoints here
 
 def render_arguments_by_topic_1(request):
     my_args = EmoArgument.objects.all().filter(topic='tv-is-better-than-books', label=1)
@@ -61,16 +52,6 @@ def render_arguments_by_topic_6(request):
         'my_args': my_args,
     }
     return HttpResponse(template.render(context, request))
-
-
-def render_arguments(request):
-    my_args=EmoArgument.objects.all().values()
-    template = loader.get_template('render_arguments_emo.html')
-    context = {
-        'my_args': my_args,
-    }
-    return HttpResponse(template.render(context, request))
-
 
 def render_arguments_by_topic_1_non_emo(request):
     my_args = EmoArgument.objects.all().filter(topic='tv-is-better-than-books', label=0)
