@@ -4,7 +4,7 @@ from django.template import loader
 
 # add all our API endpoints here
 
-def render_arguments_by_topic_1(request):
+def render_arguments_by_topic_1_emo(request):
     my_args = EmoArgument.objects.all().filter(topic='tv-is-better-than-books', label=1)
     template = loader.get_template('render_arguments_emo.html')
     context = {
@@ -12,7 +12,7 @@ def render_arguments_by_topic_1(request):
     }
     return HttpResponse(template.render(context, request))
 
-def render_arguments_by_topic_2(request):
+def render_arguments_by_topic_2_emo(request):
     my_args = EmoArgument.objects.all().filter(topic='firefox-vs-internet-explorer', label=1)
     template = loader.get_template('render_arguments_emo.html')
     context = {
@@ -20,7 +20,7 @@ def render_arguments_by_topic_2(request):
     }
     return HttpResponse(template.render(context, request))
 
-def render_arguments_by_topic_3(request):
+def render_arguments_by_topic_3_emo(request):
     my_args = EmoArgument.objects.all().filter(topic='ban-plastic-water-bottles', label=1)
     template = loader.get_template('render_arguments_emo.html')
     context = {
@@ -28,7 +28,7 @@ def render_arguments_by_topic_3(request):
     }
     return HttpResponse(template.render(context, request))
 
-def render_arguments_by_topic_4(request):
+def render_arguments_by_topic_4_emo(request):
     my_args = EmoArgument.objects.all().filter(topic='if-your-spouse-committed-murder-and-he-or-she-confided-in-you-would-you-turn-them-in-', label=1)
     template = loader.get_template('render_arguments_emo.html')
     context = {
@@ -36,7 +36,7 @@ def render_arguments_by_topic_4(request):
     }
     return HttpResponse(template.render(context, request))
 
-def render_arguments_by_topic_5(request):
+def render_arguments_by_topic_5_emo(request):
     my_args = EmoArgument.objects.all().filter(topic='pro-choice-vs-pro-life', label=1)
     template = loader.get_template('render_arguments_emo.html')
     context = {
@@ -45,7 +45,7 @@ def render_arguments_by_topic_5(request):
     return HttpResponse(template.render(context, request))
 
 
-def render_arguments_by_topic_6(request):
+def render_arguments_by_topic_6_emo(request):
     my_args = EmoArgument.objects.all().filter(topic='evolution-vs-creation', label=1)
     template = loader.get_template('render_arguments_emo.html')
     context = {
