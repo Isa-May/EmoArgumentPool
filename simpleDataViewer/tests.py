@@ -1,11 +1,13 @@
 from django.test import TestCase
 from django.test import SimpleTestCase
+from django.test import Client
 
 # Create your tests here.
 from django.urls import reverse
 
 from simpleDataViewer.models import EmoArgument
 
+c = Client()
 
 class HomepageTests(TestCase):
     def test_is_argument_emo(self):
