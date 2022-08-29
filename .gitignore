@@ -2,7 +2,6 @@
 .idea
 simpleAPI
 __pycache__
-fullstack_arg_pool
 .dockerignore
 .vscode
 venv_argpool
