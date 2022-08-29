@@ -1,5 +1,5 @@
 This is a basic django REST Api allowing to display arguments classified as 'emotional' and 'non-emotional'
-by the machine learning models created in my project https://github.com/Isa-May/EmotionalArgumentationProject. An 'emotional' argument, as classified in this project, is an argument containing pathos, i.e. emotional appeal. A 'non-emotional' argument is, by contrast, not able to trigger emotions. 
+by the machine learning models created in my project https://github.com/Isa-May/EmotionalArgumentationProject. An 'emotional' argument, as classified in this work, is an argument containing pathos, i.e. emotional appeal. A 'non-emotional' argument is, by contrast, not able to trigger emotions. 
 
 
 Please note that the arguments by no means reflect my personal views nor are they directed towards anyone, they are simply the outcome
@@ -19,7 +19,7 @@ Gretz, S., Friedman, R., Cohen-Karlik, E., Toledo, A., Lahav, D., Aharonov, R., 
 
 Habernal, I., & Gurevych, I. (2016, August). Which argument is more convincing? Analyzing and predicting convincingness of web arguments using bidirectional lstm. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 1589-1599.
 
-If using docker, the project can be started from this url:
+If using docker run 'docker-compose up' and start the project from here:  http://127.0.0.1:8000.
 
 
 
