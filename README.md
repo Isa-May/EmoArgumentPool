@@ -7,7 +7,7 @@ give their views on topics as presented in the API.
 
 The exact sources are: 
 
-Markup : * Toledo, A., Gretz, S., Cohen-Karlik, E., Friedman, R., Venezian, E., La- hav, D., & Slonim, N. (2019). Automatic Argument Quality Assessment– New Datasets and Methods. arXiv preprint arXiv:1909.01007.
+* Toledo, A., Gretz, S., Cohen-Karlik, E., Friedman, R., Venezian, E., La- hav, D., & Slonim, N. (2019). Automatic Argument Quality Assessment– New Datasets and Methods. arXiv preprint arXiv:1909.01007.
 
 
 * Swanson, R., Ecker, B., & Walker, M. (2015, September). Argument min- ing: Extracting arguments from online dialogue. In Proceedings of the 16th annual meeting of the special interest group on discourse and dialogue, pp. 217-226.
@@ -18,7 +18,7 @@ Markup : * Toledo, A., Gretz, S., Cohen-Karlik, E., Friedman, R., Venezian, E., 
 
 * Habernal, I., & Gurevych, I. (2016, August). Which argument is more convincing? Analyzing and predicting convincingness of web arguments using bidirectional lstm. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 1589-1599.
 
-If using docker run Markup :  `docker-compose up` and start the project from here:  http://127.0.0.1:8000.
+If using docker run `docker-compose up` and start the project from here:  http://127.0.0.1:8000.
 
 
 
