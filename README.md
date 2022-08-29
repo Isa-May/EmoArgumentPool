@@ -14,7 +14,7 @@ give their views on topics as presented in the API. - The exact sources are:
 
 * Toledo, A., Gretz, S., Cohen-Karlik, E., Friedman, R., Venezian, E., La- hav, D., & Slonim, N. (2019). Automatic Argument Quality Assessment– New Datasets and Methods. arXiv preprint arXiv:1909.01007.
 
-
+_________________________________
 
 If using docker run `docker-compose up` and start the project from here:  http://127.0.0.1:8000.
 
