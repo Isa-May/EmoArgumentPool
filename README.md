@@ -1,6 +1,11 @@
 This is a basic DJANGO REST API allowing to display some of the arguments classified as 'emotional' and 'non-emotional'
 by the best machine learning model created in my project https://github.com/Isa-May/EmotionalArgumentationProject. An 'emotional' argument, as classified in this work, is an argument containing pathos, i.e. emotional appeal. A 'non-emotional' argument is, by contrast, not able to trigger emotions. 
 
+_________________________________
+
+If using docker run `docker-compose up` and start the project from here:  http://127.0.0.1:8000.
+_________________________________
+
 
 **Please note that the arguments are by no means selected to reflect my personal views nor are they directed towards anyone, they are simply the outcome of a research project.**
 
@@ -15,9 +20,7 @@ The data is mainly from online arguments portals and forums where people give th
 
 * Toledo, A., Gretz, S., Cohen-Karlik, E., Friedman, R., Venezian, E., La- hav, D., & Slonim, N. (2019). Automatic Argument Quality Assessment– New Datasets and Methods. arXiv preprint arXiv:1909.01007.
 
-_________________________________
 
-If using docker run `docker-compose up` and start the project from here:  http://127.0.0.1:8000.
 
 
 
