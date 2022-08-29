@@ -3,50 +3,66 @@
 <head>
      <style>
         body {
-            background-color: limegreen;
+            background-color: white;
         }
     </style>
-<title>Argument Provider</title>
+<title>Argument Pool</title>
 </head>
 <body>
 
 
 <h1>Argument Pool</h1>
 <p>Welcome! This site enables you to use the tool 'Argument Pool'. Here you can access arguments classified as 'emotional' or
-'non-emotional' by the machine learning model from my project '...'. The source of the texts is ... </p>
+'non-emotional' by the best machine learning model of my project <a href="https://github.com/Isa-May/EmotionalArgumentationProject"> Emotional Argumentation. </a> </p>
 
+<h2>Emotional arguments</h2>
 
-<p>
-<a>Emotional arguments:</a>
-</p>
+<table style="width:100%">
 
-<table border="1">
-    <tr>
-  <td><a href="{% url 'render_arguments_by_topic_1_emo' %}">TV vs. books</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_2_emo' %}">Firefox vs. Internet Explorer</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_3_emo' %}">Plastic water ban</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_4_emo' %}">Turn in criminal spouse</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_5_emo' %}">Pro life vs. pro choice</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_6_emo' %}">Evolution vs. creationism</a></td>
-    </tr>
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_1_emo' %}">TV vs. books</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_2_emo' %}">Firefox vs. Internet Explorer</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_3_emo' %}">Plastic water ban</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_4_emo' %}">Turn in criminal spouse</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_5_emo' %}">Pro life vs. pro choice</a></td>
+  </tr>
+   <tr>
+    <td><a href="{% url 'render_arguments_by_topic_6_emo' %}">Evolution vs. creationism</a></td>
+  </tr>
 </table>
 
 
-<p>
-<a>Non-emotional arguments:</a>
-</p>
+<h2>Non-emotional arguments</h2>
 
-<table border="1">
-    <tr>
-  <td><a href="{% url 'render_arguments_by_topic_1_non_emo' %}">TV vs. books</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_2_non_emo' %}">Firefox vs. Internet Explorer</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_3_non_emo' %}">Plastic water ban</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_4_non_emo' %}">Turn in criminal spouse</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_5_non_emo' %}">Pro life vs. pro choice</a></td>
-  <td><a href="{% url 'render_arguments_by_topic_6_non_emo' %}">Evolution vs. creationism</a></td>
-    </tr>
+<table style="width:100%">
+
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_1_non_emo' %}">TV vs. books</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_2_non_emo' %}">Firefox vs. Internet Explorer</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_3_non_emo' %}">Plastic water ban</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_4_non_emo' %}">Turn in criminal spouse</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'render_arguments_by_topic_5_non_emo' %}">Pro life vs. pro choice</a></td>
+  </tr>
+   <tr>
+    <td><a href="{% url 'render_arguments_by_topic_6_non_emo' %}">Evolution vs. creationism</a></td>
+  </tr>
 </table>
-
 
 </body>
 </html>
