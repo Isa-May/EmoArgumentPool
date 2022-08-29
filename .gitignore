@@ -5,3 +5,5 @@ __pycache__
 fullstack_arg_pool
 .dockerignore
 .vscode
+venv_argpool
+.venv_argpool
